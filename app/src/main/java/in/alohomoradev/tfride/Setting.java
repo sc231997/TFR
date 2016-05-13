@@ -35,6 +35,7 @@ public class Setting extends ListActivity {
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
         Toast.makeText(this,"Clicked on"+position,Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"Test toast",Toast.LENGTH_LONG).show();
         super.onListItemClick(l, v, position, id);
     }
 
